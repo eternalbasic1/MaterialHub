@@ -1,0 +1,1851 @@
+{
+  "categories": [
+    {
+      "id": "cement-and-steel",
+      "slug": "cement-and-steel",
+      "name": "Cement & Steel",
+      "originalName": "Cement and Steel",
+      "image": "/images/category-cement-and-steel.webp",
+      "color": "#fff5df",
+      "description": "Quality materials, trusted brands, delivered to your site."
+    },
+    {
+      "id": "electrical-and-lighting",
+      "slug": "electrical-and-lighting",
+      "name": "Electrical & Lighting",
+      "originalName": "Electrical & lighting",
+      "image": "/images/category-electrical-and-lighting.webp",
+      "color": "#f1f3ff",
+      "description": "Quality materials, trusted brands, delivered to your site."
+    },
+    {
+      "id": "bathware",
+      "slug": "bathware",
+      "name": "Bathware",
+      "originalName": "Bathware",
+      "image": "/images/category-bathware.webp",
+      "color": "#edf8fb",
+      "description": "Quality materials, trusted brands, delivered to your site."
+    },
+    {
+      "id": "tiling-and-adhesives",
+      "slug": "tiling-and-adhesives",
+      "name": "Tiling & Adhesives",
+      "originalName": "Tiling & Adhesives",
+      "image": "/images/category-tiling-and-adhesives.webp",
+      "color": "#f1f8ea",
+      "description": "Quality materials, trusted brands, delivered to your site."
+    },
+    {
+      "id": "paint-and-finishes",
+      "slug": "paint-and-finishes",
+      "name": "Paint & Finishes",
+      "originalName": "Paint and Finishes",
+      "image": "/images/category-paint-and-finishes.webp",
+      "color": "#fff0ec",
+      "description": "Quality materials, trusted brands, delivered to your site."
+    },
+    {
+      "id": "electrical-appliances",
+      "slug": "electrical-appliances",
+      "name": "Electrical Appliances",
+      "originalName": "Electrical appliance",
+      "image": "/images/category-electrical-appliances.webp",
+      "color": "#f1f4fb",
+      "description": "Quality materials, trusted brands, delivered to your site."
+    },
+    {
+      "id": "waterproofing",
+      "slug": "waterproofing",
+      "name": "Waterproofing",
+      "originalName": "WaterProofing",
+      "image": "/images/category-waterproofing.webp",
+      "color": "#fff8df",
+      "description": "Quality materials, trusted brands, delivered to your site."
+    },
+    {
+      "id": "pipes-and-fittings",
+      "slug": "pipes-and-fittings",
+      "name": "Pipes & Fittings",
+      "originalName": "CPVC, PVC & GI fittings",
+      "image": "/images/category-pipes-and-fittings.webp",
+      "color": "#eaf6f5",
+      "description": "Quality materials, trusted brands, delivered to your site."
+    },
+    {
+      "id": "hardware-and-locks",
+      "slug": "hardware-and-locks",
+      "name": "Hardware & Locks",
+      "originalName": "Hardware and Locks",
+      "image": "/images/category-hardware-and-locks.webp",
+      "color": "#f5f0fa",
+      "description": "Quality materials, trusted brands, delivered to your site."
+    },
+    {
+      "id": "plywood-and-laminates",
+      "slug": "plywood-and-laminates",
+      "name": "Plywood & Laminates",
+      "originalName": "Plywood and Laminates",
+      "image": "/images/category-plywood-and-laminates.webp",
+      "color": "#fbf2e8",
+      "description": "Quality materials, trusted brands, delivered to your site."
+    },
+    {
+      "id": "tools-and-site-supplies",
+      "slug": "tools-and-site-supplies",
+      "name": "Tools & Site Supplies",
+      "originalName": "Tools & Site Supplies",
+      "image": "/images/category-tools-and-site-supplies.webp",
+      "color": "#eef3ff",
+      "description": "Quality materials, trusted brands, delivered to your site."
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "slug": "jk-cement-jk-super-cement-50kg",
+      "category": "cement-and-steel",
+      "subCategory": "Cement",
+      "name": "JK Cement JK Super Cement 50kg",
+      "brand": "JK Cement",
+      "image": "/images/product-1-0.webp",
+      "images": ["/images/product-1-0.webp"],
+      "price": 350,
+      "mrp": 437.5,
+      "discount": 20,
+      "unit": "bag",
+      "specifications": {
+        "Brand": "JK Cement",
+        "Category": "Cement & Steel",
+        "Weight": "50 kg",
+        "Type": "PPC",
+        "Cement type": "PPC",
+        "Packaging": "Bag"
+      },
+      "description": "Suitable for all construction applications",
+      "variants": [],
+      "fastDelivery": true,
+      "gstRate": 18,
+      "featured": true
+    },
+    {
+      "id": "2",
+      "slug": "ultratech-cement-50kg",
+      "category": "cement-and-steel",
+      "subCategory": "Cement",
+      "name": "UltraTech Cement 50kg",
+      "brand": "UltraTech",
+      "image": "/images/product-2-0.webp",
+      "images": ["/images/product-2-0.webp"],
+      "price": 365,
+      "mrp": 456.25,
+      "discount": 20,
+      "unit": "bag",
+      "specifications": {
+        "Brand": "UltraTech",
+        "Category": "Cement & Steel",
+        "Weight": "50 Kg",
+        "Type": "PPC"
+      },
+      "description": "UltraTech PPC Cement is a high-strength, durable cement ideal for all types of construction works, packaged in 50 kg bags. Properties Cement Type Grey Cement Grade Portland Pozzolana Cement - PPC Packaging Size 50 Kg",
+      "variants": [
+        {
+          "id": "option-1",
+          "attributes": {
+            "Weight": "50 Kg",
+            "Type": "PPC"
+          },
+          "price": 365,
+          "mrp": 456.25,
+          "unit": "bag"
+        },
+        {
+          "id": "option-2",
+          "attributes": {
+            "Weight": "50 Kg",
+            "Type": "OPC"
+          },
+          "price": 400,
+          "mrp": 500,
+          "unit": "bag"
+        }
+      ],
+      "fastDelivery": true,
+      "gstRate": 18,
+      "featured": true
+    },
+    {
+      "id": "3",
+      "slug": "tmt-bars-1-bundle",
+      "category": "cement-and-steel",
+      "subCategory": "Steel",
+      "name": "Rathi TMT Bars (12 m)",
+      "brand": "Rathi",
+      "image": "/images/product-3-0.webp",
+      "images": ["/images/product-3-0.webp"],
+      "price": 282,
+      "mrp": 352.5,
+      "discount": 20,
+      "unit": "rod",
+      "specifications": {
+        "Brand": "Rathi",
+        "Category": "Cement & Steel",
+        "Diameter": "8 mm",
+        "Length": "12 m",
+        "Pack": "Single rod (12 m)"
+      },
+      "description": "High-strength, flexible reinforcement steel rods with a hardened outer shell and soft inner core, crucial for modern construction durability and seismic resistance. Sold by the single 12 m rod or by the bundle. Weight per 12 m rod: 8 mm: about 4.7 kg \u00b7 10 mm: about 7.4 kg \u00b7 12 mm: about 10.7 kg \u00b7 16 mm: about 19.0 kg \u00b7 20 mm: about 29.6 kg. Bundle details: 8 mm: 10 rods, about 47 kg \u00b7 10 mm: 7 rods, about 52 kg \u00b7 12 mm: 5 rods, about 53 kg \u00b7 16 mm: 3 rods, about 57 kg \u00b7 20 mm: 2 rods, about 59 kg. Rod counts and weights are typical and can vary slightly by mill.",
+      "variants": [
+        {
+          "id": "option-1",
+          "attributes": {
+            "Diameter": "8 mm",
+            "Length": "12 m",
+            "Pack": "Single rod (12 m)"
+          },
+          "price": 282,
+          "mrp": 352.5,
+          "unit": "rod"
+        },
+        {
+          "id": "option-2",
+          "attributes": {
+            "Diameter": "8 mm",
+            "Length": "12 m",
+            "Pack": "Bundle"
+          },
+          "price": 2820,
+          "mrp": 3525,
+          "unit": "bundle"
+        },
+        {
+          "id": "option-3",
+          "attributes": {
+            "Diameter": "10 mm",
+            "Length": "12 m",
+            "Pack": "Single rod (12 m)"
+          },
+          "price": 433,
+          "mrp": 541.25,
+          "unit": "rod"
+        },
+        {
+          "id": "option-4",
+          "attributes": {
+            "Diameter": "10 mm",
+            "Length": "12 m",
+            "Pack": "Bundle"
+          },
+          "price": 3031,
+          "mrp": 3788.75,
+          "unit": "bundle"
+        },
+        {
+          "id": "option-5",
+          "attributes": {
+            "Diameter": "12 mm",
+            "Length": "12 m",
+            "Pack": "Single rod (12 m)"
+          },
+          "price": 613,
+          "mrp": 766.25,
+          "unit": "rod"
+        },
+        {
+          "id": "option-6",
+          "attributes": {
+            "Diameter": "12 mm",
+            "Length": "12 m",
+            "Pack": "Bundle"
+          },
+          "price": 3065,
+          "mrp": 3831.25,
+          "unit": "bundle"
+        }
+      ],
+      "fastDelivery": false,
+      "gstRate": 18,
+      "featured": false
+    },
+    {
+      "id": "4",
+      "slug": "jk-laxmi-white-cement",
+      "category": "cement-and-steel",
+      "subCategory": "White Cement",
+      "name": "JK White Cement",
+      "brand": "JK Cement",
+      "image": "/images/product-4-0.webp",
+      "images": ["/images/product-4-0.webp"],
+      "price": 1284,
+      "mrp": 1605,
+      "discount": 20,
+      "unit": "bag",
+      "specifications": {
+        "Brand": "JK Cement",
+        "Category": "Cement & Steel",
+        "Weight": "50 Kg",
+        "Type": "White cement"
+      },
+      "description": "JK White Cement is a superior product of advanced technology that combines strength and aesthetics, suitable for silky smooth exterior and interior walls, mosaic tiles, terrazzo flooring, and other white cement-based applications.",
+      "variants": [],
+      "fastDelivery": true,
+      "gstRate": 18,
+      "featured": false
+    },
+    {
+      "id": "5",
+      "slug": "polycab-frlf-cu-flex-1-core-flexible-cable",
+      "category": "electrical-and-lighting",
+      "subCategory": "Wires & Cables",
+      "name": "Polycab FRLF CU Flex 1 Core Flexible Cable",
+      "brand": "Polycab",
+      "image": "/images/product-5-0.webp",
+      "images": ["/images/product-5-0.webp"],
+      "price": 23.14,
+      "mrp": 28.93,
+      "discount": 20,
+      "unit": "metre",
+      "specifications": {
+        "Brand": "Polycab",
+        "Category": "Electrical & Lighting",
+        "Size": "1.5 Sq.mm",
+        "Color": "Red",
+        "Pack": "Per metre"
+      },
+      "description": "Polycab FRLF CU Flex single core un-sheathed industrial multistrand cable with flame retardant lead free insulation, conforming to IS-694:2010, with bright annealed electrolytic bare copper conductor. Voltage grade 1100V.",
+      "variants": [
+        {
+          "id": "wire-1",
+          "attributes": {
+            "Size": "1.5 Sq.mm",
+            "Color": "Red",
+            "Sold as": "Per metre"
+          },
+          "price": 23.14,
+          "mrp": 28.93,
+          "unit": "metre"
+        },
+        {
+          "id": "wire-2",
+          "attributes": {
+            "Size": "1.5 Sq.mm",
+            "Color": "Red",
+            "Sold as": "Coil (90 m)"
+          },
+          "price": 2082.6,
+          "mrp": 2603.25,
+          "unit": "coil"
+        },
+        {
+          "id": "wire-3",
+          "attributes": {
+            "Size": "1.5 Sq.mm",
+            "Color": "Yellow",
+            "Sold as": "Per metre"
+          },
+          "price": 23.14,
+          "mrp": 28.93,
+          "unit": "metre"
+        },
+        {
+          "id": "wire-4",
+          "attributes": {
+            "Size": "1.5 Sq.mm",
+            "Color": "Yellow",
+            "Sold as": "Coil (90 m)"
+          },
+          "price": 2082.6,
+          "mrp": 2603.25,
+          "unit": "coil"
+        },
+        {
+          "id": "wire-5",
+          "attributes": {
+            "Size": "1.5 Sq.mm",
+            "Color": "Blue",
+            "Sold as": "Per metre"
+          },
+          "price": 23.14,
+          "mrp": 28.93,
+          "unit": "metre"
+        },
+        {
+          "id": "wire-6",
+          "attributes": {
+            "Size": "1.5 Sq.mm",
+            "Color": "Blue",
+            "Sold as": "Coil (90 m)"
+          },
+          "price": 2082.6,
+          "mrp": 2603.25,
+          "unit": "coil"
+        },
+        {
+          "id": "wire-7",
+          "attributes": {
+            "Size": "1.5 Sq.mm",
+            "Color": "Green",
+            "Sold as": "Per metre"
+          },
+          "price": 23.14,
+          "mrp": 28.93,
+          "unit": "metre"
+        },
+        {
+          "id": "wire-8",
+          "attributes": {
+            "Size": "1.5 Sq.mm",
+            "Color": "Green",
+            "Sold as": "Coil (90 m)"
+          },
+          "price": 2082.6,
+          "mrp": 2603.25,
+          "unit": "coil"
+        },
+        {
+          "id": "wire-9",
+          "attributes": {
+            "Size": "1.5 Sq.mm",
+            "Color": "Black",
+            "Sold as": "Per metre"
+          },
+          "price": 23.14,
+          "mrp": 28.93,
+          "unit": "metre"
+        },
+        {
+          "id": "wire-10",
+          "attributes": {
+            "Size": "1.5 Sq.mm",
+            "Color": "Black",
+            "Sold as": "Coil (90 m)"
+          },
+          "price": 2082.6,
+          "mrp": 2603.25,
+          "unit": "coil"
+        },
+        {
+          "id": "wire-11",
+          "attributes": {
+            "Size": "1.5 Sq.mm",
+            "Color": "Grey",
+            "Sold as": "Per metre"
+          },
+          "price": 23.14,
+          "mrp": 28.93,
+          "unit": "metre"
+        },
+        {
+          "id": "wire-12",
+          "attributes": {
+            "Size": "1.5 Sq.mm",
+            "Color": "Grey",
+            "Sold as": "Coil (90 m)"
+          },
+          "price": 2082.6,
+          "mrp": 2603.25,
+          "unit": "coil"
+        },
+        {
+          "id": "wire-13",
+          "attributes": {
+            "Size": "2.5 Sq.mm",
+            "Color": "Red",
+            "Sold as": "Per metre"
+          },
+          "price": 37.02,
+          "mrp": 46.27,
+          "unit": "metre"
+        },
+        {
+          "id": "wire-14",
+          "attributes": {
+            "Size": "2.5 Sq.mm",
+            "Color": "Red",
+            "Sold as": "Coil (90 m)"
+          },
+          "price": 3332.16,
+          "mrp": 4165.2,
+          "unit": "coil"
+        },
+        {
+          "id": "wire-15",
+          "attributes": {
+            "Size": "2.5 Sq.mm",
+            "Color": "Yellow",
+            "Sold as": "Per metre"
+          },
+          "price": 37.02,
+          "mrp": 46.27,
+          "unit": "metre"
+        },
+        {
+          "id": "wire-16",
+          "attributes": {
+            "Size": "2.5 Sq.mm",
+            "Color": "Yellow",
+            "Sold as": "Coil (90 m)"
+          },
+          "price": 3332.16,
+          "mrp": 4165.2,
+          "unit": "coil"
+        },
+        {
+          "id": "wire-17",
+          "attributes": {
+            "Size": "2.5 Sq.mm",
+            "Color": "Blue",
+            "Sold as": "Per metre"
+          },
+          "price": 37.02,
+          "mrp": 46.27,
+          "unit": "metre"
+        },
+        {
+          "id": "wire-18",
+          "attributes": {
+            "Size": "2.5 Sq.mm",
+            "Color": "Blue",
+            "Sold as": "Coil (90 m)"
+          },
+          "price": 3332.16,
+          "mrp": 4165.2,
+          "unit": "coil"
+        },
+        {
+          "id": "wire-19",
+          "attributes": {
+            "Size": "2.5 Sq.mm",
+            "Color": "Green",
+            "Sold as": "Per metre"
+          },
+          "price": 37.02,
+          "mrp": 46.27,
+          "unit": "metre"
+        },
+        {
+          "id": "wire-20",
+          "attributes": {
+            "Size": "2.5 Sq.mm",
+            "Color": "Green",
+            "Sold as": "Coil (90 m)"
+          },
+          "price": 3332.16,
+          "mrp": 4165.2,
+          "unit": "coil"
+        },
+        {
+          "id": "wire-21",
+          "attributes": {
+            "Size": "2.5 Sq.mm",
+            "Color": "Black",
+            "Sold as": "Per metre"
+          },
+          "price": 37.02,
+          "mrp": 46.27,
+          "unit": "metre"
+        },
+        {
+          "id": "wire-22",
+          "attributes": {
+            "Size": "2.5 Sq.mm",
+            "Color": "Black",
+            "Sold as": "Coil (90 m)"
+          },
+          "price": 3332.16,
+          "mrp": 4165.2,
+          "unit": "coil"
+        },
+        {
+          "id": "wire-23",
+          "attributes": {
+            "Size": "2.5 Sq.mm",
+            "Color": "Grey",
+            "Sold as": "Per metre"
+          },
+          "price": 37.02,
+          "mrp": 46.27,
+          "unit": "metre"
+        },
+        {
+          "id": "wire-24",
+          "attributes": {
+            "Size": "2.5 Sq.mm",
+            "Color": "Grey",
+            "Sold as": "Coil (90 m)"
+          },
+          "price": 3332.16,
+          "mrp": 4165.2,
+          "unit": "coil"
+        },
+        {
+          "id": "wire-25",
+          "attributes": {
+            "Size": "4 Sq.mm",
+            "Color": "Red",
+            "Sold as": "Per metre"
+          },
+          "price": 55.54,
+          "mrp": 69.42,
+          "unit": "metre"
+        },
+        {
+          "id": "wire-26",
+          "attributes": {
+            "Size": "4 Sq.mm",
+            "Color": "Red",
+            "Sold as": "Coil (90 m)"
+          },
+          "price": 4998.24,
+          "mrp": 6247.8,
+          "unit": "coil"
+        },
+        {
+          "id": "wire-27",
+          "attributes": {
+            "Size": "4 Sq.mm",
+            "Color": "Yellow",
+            "Sold as": "Per metre"
+          },
+          "price": 55.54,
+          "mrp": 69.42,
+          "unit": "metre"
+        },
+        {
+          "id": "wire-28",
+          "attributes": {
+            "Size": "4 Sq.mm",
+            "Color": "Yellow",
+            "Sold as": "Coil (90 m)"
+          },
+          "price": 4998.24,
+          "mrp": 6247.8,
+          "unit": "coil"
+        },
+        {
+          "id": "wire-29",
+          "attributes": {
+            "Size": "4 Sq.mm",
+            "Color": "Blue",
+            "Sold as": "Per metre"
+          },
+          "price": 55.54,
+          "mrp": 69.42,
+          "unit": "metre"
+        },
+        {
+          "id": "wire-30",
+          "attributes": {
+            "Size": "4 Sq.mm",
+            "Color": "Blue",
+            "Sold as": "Coil (90 m)"
+          },
+          "price": 4998.24,
+          "mrp": 6247.8,
+          "unit": "coil"
+        },
+        {
+          "id": "wire-31",
+          "attributes": {
+            "Size": "4 Sq.mm",
+            "Color": "Green",
+            "Sold as": "Per metre"
+          },
+          "price": 55.54,
+          "mrp": 69.42,
+          "unit": "metre"
+        },
+        {
+          "id": "wire-32",
+          "attributes": {
+            "Size": "4 Sq.mm",
+            "Color": "Green",
+            "Sold as": "Coil (90 m)"
+          },
+          "price": 4998.24,
+          "mrp": 6247.8,
+          "unit": "coil"
+        },
+        {
+          "id": "wire-33",
+          "attributes": {
+            "Size": "4 Sq.mm",
+            "Color": "Black",
+            "Sold as": "Per metre"
+          },
+          "price": 55.54,
+          "mrp": 69.42,
+          "unit": "metre"
+        },
+        {
+          "id": "wire-34",
+          "attributes": {
+            "Size": "4 Sq.mm",
+            "Color": "Black",
+            "Sold as": "Coil (90 m)"
+          },
+          "price": 4998.24,
+          "mrp": 6247.8,
+          "unit": "coil"
+        },
+        {
+          "id": "wire-35",
+          "attributes": {
+            "Size": "4 Sq.mm",
+            "Color": "Grey",
+            "Sold as": "Per metre"
+          },
+          "price": 55.54,
+          "mrp": 69.42,
+          "unit": "metre"
+        },
+        {
+          "id": "wire-36",
+          "attributes": {
+            "Size": "4 Sq.mm",
+            "Color": "Grey",
+            "Sold as": "Coil (90 m)"
+          },
+          "price": 4998.24,
+          "mrp": 6247.8,
+          "unit": "coil"
+        },
+        {
+          "id": "wire-37",
+          "attributes": {
+            "Size": "6 Sq.mm",
+            "Color": "Red",
+            "Sold as": "Per metre"
+          },
+          "price": 80.99,
+          "mrp": 101.24,
+          "unit": "metre"
+        },
+        {
+          "id": "wire-38",
+          "attributes": {
+            "Size": "6 Sq.mm",
+            "Color": "Red",
+            "Sold as": "Coil (90 m)"
+          },
+          "price": 7289.1,
+          "mrp": 9111.38,
+          "unit": "coil"
+        },
+        {
+          "id": "wire-39",
+          "attributes": {
+            "Size": "6 Sq.mm",
+            "Color": "Yellow",
+            "Sold as": "Per metre"
+          },
+          "price": 80.99,
+          "mrp": 101.24,
+          "unit": "metre"
+        },
+        {
+          "id": "wire-40",
+          "attributes": {
+            "Size": "6 Sq.mm",
+            "Color": "Yellow",
+            "Sold as": "Coil (90 m)"
+          },
+          "price": 7289.1,
+          "mrp": 9111.38,
+          "unit": "coil"
+        },
+        {
+          "id": "wire-41",
+          "attributes": {
+            "Size": "6 Sq.mm",
+            "Color": "Blue",
+            "Sold as": "Per metre"
+          },
+          "price": 80.99,
+          "mrp": 101.24,
+          "unit": "metre"
+        },
+        {
+          "id": "wire-42",
+          "attributes": {
+            "Size": "6 Sq.mm",
+            "Color": "Blue",
+            "Sold as": "Coil (90 m)"
+          },
+          "price": 7289.1,
+          "mrp": 9111.38,
+          "unit": "coil"
+        },
+        {
+          "id": "wire-43",
+          "attributes": {
+            "Size": "6 Sq.mm",
+            "Color": "Green",
+            "Sold as": "Per metre"
+          },
+          "price": 80.99,
+          "mrp": 101.24,
+          "unit": "metre"
+        },
+        {
+          "id": "wire-44",
+          "attributes": {
+            "Size": "6 Sq.mm",
+            "Color": "Green",
+            "Sold as": "Coil (90 m)"
+          },
+          "price": 7289.1,
+          "mrp": 9111.38,
+          "unit": "coil"
+        },
+        {
+          "id": "wire-45",
+          "attributes": {
+            "Size": "6 Sq.mm",
+            "Color": "Black",
+            "Sold as": "Per metre"
+          },
+          "price": 80.99,
+          "mrp": 101.24,
+          "unit": "metre"
+        },
+        {
+          "id": "wire-46",
+          "attributes": {
+            "Size": "6 Sq.mm",
+            "Color": "Black",
+            "Sold as": "Coil (90 m)"
+          },
+          "price": 7289.1,
+          "mrp": 9111.38,
+          "unit": "coil"
+        },
+        {
+          "id": "wire-47",
+          "attributes": {
+            "Size": "6 Sq.mm",
+            "Color": "Grey",
+            "Sold as": "Per metre"
+          },
+          "price": 80.99,
+          "mrp": 101.24,
+          "unit": "metre"
+        },
+        {
+          "id": "wire-48",
+          "attributes": {
+            "Size": "6 Sq.mm",
+            "Color": "Grey",
+            "Sold as": "Coil (90 m)"
+          },
+          "price": 7289.1,
+          "mrp": 9111.38,
+          "unit": "coil"
+        }
+      ],
+      "fastDelivery": true,
+      "gstRate": 18,
+      "featured": true
+    },
+    {
+      "id": "6",
+      "slug": "havells-lifeline-plus-s3-fr-wire",
+      "category": "electrical-and-lighting",
+      "subCategory": "Wires & Cables",
+      "name": "Havells Lifeline FR Wire, 180m",
+      "brand": "Havells",
+      "image": "/images/product-6-0.webp",
+      "images": [
+        "/images/product-6-0.webp",
+        "/images/product-6-1.webp",
+        "/images/product-6-2.webp"
+      ],
+      "price": 3675,
+      "mrp": 4593.75,
+      "discount": 20,
+      "unit": "piece",
+      "specifications": {
+        "Brand": "Havells",
+        "Category": "Electrical & Lighting",
+        "Size": "1 Sq.mm",
+        "Color": "Red"
+      },
+      "description": "Product Highlights Manufacturer: Havells India Ltd. Product: Lifeline FR Single-Core Flexible Cable Type: Flame Retardant (FR) PVC Flexible Cable Voltage Grade: Up to 1.1 kV (IS:694) Sizes Available: 1.0, 1.5, 2.5, 4.0, and 6.0 sqmm Colours Available: Red, Blue, Yellow, Black, and Green Standard Coil Length: 180 metres Application: Internal house wiring, sub-circuit routing, and dedicated utility socket supply Product Description Havells Lifeline FR Single-Core Flexible Cable is a flame retardant PVC insulated copper wire for low-voltage domestic and light industrial wiring up to 1.1 kV. Bu...",
+      "variants": [
+        {
+          "id": "option-1",
+          "attributes": {
+            "Size": "1 Sq.mm",
+            "Color": "Red"
+          },
+          "price": 3675,
+          "mrp": 4593.75,
+          "unit": "piece"
+        },
+        {
+          "id": "option-2",
+          "attributes": {
+            "Size": "1 Sq.mm",
+            "Color": "Black"
+          },
+          "price": 3675,
+          "mrp": 4593.75,
+          "unit": "piece"
+        },
+        {
+          "id": "option-3",
+          "attributes": {
+            "Size": "1 Sq.mm",
+            "Color": "Blue"
+          },
+          "price": 3675,
+          "mrp": 4593.75,
+          "unit": "piece"
+        },
+        {
+          "id": "option-4",
+          "attributes": {
+            "Size": "1 Sq.mm",
+            "Color": "Yellow"
+          },
+          "price": 3675,
+          "mrp": 4593.75,
+          "unit": "piece"
+        },
+        {
+          "id": "option-5",
+          "attributes": {
+            "Size": "1 Sq.mm",
+            "Color": "Green"
+          },
+          "price": 3675,
+          "mrp": 4593.75,
+          "unit": "piece"
+        },
+        {
+          "id": "option-6",
+          "attributes": {
+            "Size": "1.5 Sq.mm",
+            "Color": "Red"
+          },
+          "price": 5385,
+          "mrp": 6731.25,
+          "unit": "piece"
+        }
+      ],
+      "fastDelivery": true,
+      "gstRate": 18,
+      "featured": false
+    },
+    {
+      "id": "7",
+      "slug": "jaquar-fusion-wall-mounted-single-lever-basin-mixer",
+      "category": "bathware",
+      "subCategory": "Basin Mixers",
+      "name": "Jaquar Wall Mounted Single Lever Basin Mixer",
+      "brand": "Jaquar",
+      "image": "/images/product-7-0.webp",
+      "images": [
+        "/images/product-7-0.webp",
+        "/images/product-7-1.webp",
+        "/images/product-7-2.webp"
+      ],
+      "price": 2816,
+      "mrp": 3520,
+      "discount": 20,
+      "unit": "piece",
+      "specifications": {
+        "Brand": "Jaquar",
+        "Category": "Bathware",
+        "Model": "Fusion (FUS-CHR-29233NK)"
+      },
+      "description": "Product Highlights Manufacturer: Jaquar Model Range: Fusion / Alive / Opal Prime - Wall Mounted Single Lever Basin Mixer (Exposed Part Kit) Build Material: Genuine virgin brass construction Finish: Mirror chrome Design: Concealed wall-mount architecture with ergonomic single-lever control Variants: 3 design options - Fusion, Alive, Opal Prime (see comparison table) Product Description Jaquar Wall Mounted Single Lever Basin Mixer brings a clean, minimalist look to your basin area by hiding the bulky plumbing work inside the wall. Crafted for modern aesthetics and long-lasting functionality, ...",
+      "variants": [
+        {
+          "id": "option-1",
+          "attributes": {
+            "Model": "Fusion (FUS-CHR-29233NK)"
+          },
+          "price": 2816,
+          "mrp": 3520,
+          "unit": "piece"
+        },
+        {
+          "id": "option-2",
+          "attributes": {
+            "Model": "Alive (ALI-CHR-85233NK)"
+          },
+          "price": 4391,
+          "mrp": 5488.75,
+          "unit": "piece"
+        },
+        {
+          "id": "option-3",
+          "attributes": {
+            "Model": "Opal Prime (OPP-CHR-15233NKPM)"
+          },
+          "price": 3696,
+          "mrp": 4620,
+          "unit": "piece"
+        },
+        {
+          "id": "option-4",
+          "attributes": {
+            "Model": "Kubix Prime (KUP-CHR-35233NKPM)"
+          },
+          "price": 4374,
+          "mrp": 5467.5,
+          "unit": "piece"
+        }
+      ],
+      "fastDelivery": false,
+      "gstRate": 18,
+      "featured": false
+    },
+    {
+      "id": "8",
+      "slug": "jaquar-florentine-prime-basin-mixer",
+      "category": "bathware",
+      "subCategory": "Basin Mixers",
+      "name": "Jaquar Florentine Prime Basin Mixer",
+      "brand": "Jaquar",
+      "image": "/images/product-8-0.webp",
+      "images": [
+        "/images/product-8-0.webp",
+        "/images/product-8-1.webp",
+        "/images/product-8-2.webp"
+      ],
+      "price": 4356,
+      "mrp": 5445,
+      "discount": 20,
+      "unit": "piece",
+      "specifications": {
+        "Brand": "Jaquar",
+        "Category": "Bathware",
+        "Size": "Single Lever Short (167mm), FLP-CHR-5001BPM"
+      },
+      "description": "Product Highlights Manufacturer: Jaquar India Range: Florentine Prime Series Variants Available: Standard Short - FLP-CHR-5001BPM (167mm) and Tall Boy - FLP-CHR-5005BPM (283mm) Type: Deck-Mounted Single Lever Basin Mixer - Single Hole Material: Solid Brass Finish: Nickel 10.0\u00b5m and Chrome 0.3\u00b5m - 500+ hour salt spray validated Cartridge: Brass spindle with temperature limiter - 10.5 lakh cycle rated Includes: Braided hoses (450mm - Standard / 600mm - Tall Boy) - without popup waste Application: Standard - drop-in, semi-recessed, and wall-hung basins. Tall Boy - countertop vessel basins. Pro...",
+      "variants": [
+        {
+          "id": "option-1",
+          "attributes": {
+            "Size": "Single Lever Short (167mm), FLP-CHR-5001BPM"
+          },
+          "price": 4356,
+          "mrp": 5445,
+          "unit": "piece"
+        },
+        {
+          "id": "option-2",
+          "attributes": {
+            "Size": "Single Lever Tall (283mm), FLP-CHR-5005BPM"
+          },
+          "price": 5368,
+          "mrp": 6710,
+          "unit": "piece"
+        }
+      ],
+      "fastDelivery": true,
+      "gstRate": 18,
+      "featured": false
+    },
+    {
+      "id": "9",
+      "slug": "heatx",
+      "category": "tiling-and-adhesives",
+      "subCategory": "Wood Adhesives",
+      "name": "HeatX Woodworking Adhesive",
+      "brand": "fevicol",
+      "image": "/images/product-9-0.webp",
+      "images": ["/images/product-9-0.webp"],
+      "price": 302,
+      "mrp": 377.5,
+      "discount": 20,
+      "unit": "tin",
+      "specifications": {
+        "Brand": "fevicol",
+        "Category": "Tiling & Adhesives",
+        "Size": "500 ml"
+      },
+      "description": "Special heat-resistant adhesive for laminate pasting on kitchen shutters and hot surfaces. Ideal for modular kitchens, plywood and decorative panels. Provides strong bonding even under high temperature conditions. Better than normal adhesives as it prevents edge lifting and ensures long-lasting hold.",
+      "variants": [
+        {
+          "id": "option-1",
+          "attributes": {
+            "Size": "500 ml"
+          },
+          "price": 302,
+          "mrp": 377.5,
+          "unit": "tin"
+        },
+        {
+          "id": "option-2",
+          "attributes": {
+            "Size": "1 L"
+          },
+          "price": 550,
+          "mrp": 687.5,
+          "unit": "tin"
+        },
+        {
+          "id": "option-3",
+          "attributes": {
+            "Size": "2 L"
+          },
+          "price": 1284,
+          "mrp": 1605,
+          "unit": "tin"
+        },
+        {
+          "id": "option-4",
+          "attributes": {
+            "Size": "5 L"
+          },
+          "price": 3027,
+          "mrp": 3783.75,
+          "unit": "tin"
+        }
+      ],
+      "fastDelivery": true,
+      "gstRate": 18,
+      "featured": true
+    },
+    {
+      "id": "10",
+      "slug": "roff-vitrofix-ultra-grey-20-kg",
+      "category": "tiling-and-adhesives",
+      "subCategory": "Tile Adhesives",
+      "name": "Roff Vitrofix Ultra Grey (20 Kg) [T05]",
+      "brand": "Roff",
+      "image": "/images/product-10-0.webp",
+      "images": ["/images/product-10-0.webp"],
+      "price": 830,
+      "mrp": 1037.5,
+      "discount": 20,
+      "unit": "bag",
+      "specifications": {
+        "Brand": "Roff",
+        "Category": "Tiling & Adhesives"
+      },
+      "description": "Highly Polymer modified - provides high adhesion, allows to bond with variety of substrates, for fixing a variety of tiles and stones. Sag Resistant formula - provides hassle-free application on vertical walls. Shelf Life 12 Months. Water & shock resistant - suitable for wet areas & commercial floor too. Low VOC - for healthy living. Sustains heat ageing - making it ideal for high temperature locations and for hot temperature applications, like Jacuzzi, sauna etc. Easy to use - just add water on site, ready to use.",
+      "variants": [],
+      "fastDelivery": true,
+      "gstRate": 18,
+      "featured": false
+    },
+    {
+      "id": "11",
+      "slug": "bond-tite",
+      "category": "tiling-and-adhesives",
+      "subCategory": "Epoxy Adhesives",
+      "name": "Bond Tite",
+      "brand": "Astral",
+      "image": "/images/product-11-0.webp",
+      "images": ["/images/product-11-0.webp"],
+      "price": 330,
+      "mrp": 412.5,
+      "discount": 20,
+      "unit": "pack",
+      "specifications": {
+        "Brand": "Astral",
+        "Category": "Tiling & Adhesives"
+      },
+      "description": "BONDITE FAST AND CLEAR is a \"5-minute\" high-strength, two-component transparent epoxy adhesive system.",
+      "variants": [],
+      "fastDelivery": false,
+      "gstRate": 18,
+      "featured": false
+    },
+    {
+      "id": "12",
+      "slug": "apcolite-premium-emulsion",
+      "category": "paint-and-finishes",
+      "subCategory": "Interior Paints",
+      "name": "Apcolite Premium Emulsion",
+      "brand": "Asian Paints",
+      "image": "/images/product-12-0.webp",
+      "images": ["/images/product-12-0.webp"],
+      "price": 364,
+      "mrp": 455,
+      "discount": 20,
+      "unit": "bucket",
+      "specifications": {
+        "Brand": "Asian Paints",
+        "Category": "Paint & Finishes",
+        "Color": "White",
+        "Finish": "Matt",
+        "Use": "Interior",
+        "Size": "1 L"
+      },
+      "description": "Persistent paint protection film and stain guard of this washable wall paint will keep you stress free and stain free.",
+      "variants": [
+        {
+          "id": "option-1",
+          "attributes": {
+            "Color": "White",
+            "Finish": "Matt",
+            "Use": "Interior",
+            "Size": "1 L"
+          },
+          "price": 364,
+          "mrp": 455,
+          "unit": "bucket"
+        },
+        {
+          "id": "option-2",
+          "attributes": {
+            "Color": "White",
+            "Finish": "Matt",
+            "Use": "Interior",
+            "Size": "4 L"
+          },
+          "price": 1278,
+          "mrp": 1597.5,
+          "unit": "bucket"
+        },
+        {
+          "id": "option-3",
+          "attributes": {
+            "Color": "White",
+            "Finish": "Matt",
+            "Use": "Interior",
+            "Size": "10 L"
+          },
+          "price": 3258,
+          "mrp": 4072.5,
+          "unit": "bucket"
+        },
+        {
+          "id": "option-4",
+          "attributes": {
+            "Color": "White",
+            "Finish": "Matt",
+            "Use": "Interior",
+            "Size": "20 L"
+          },
+          "price": 6889,
+          "mrp": 8611.25,
+          "unit": "bucket"
+        },
+        {
+          "id": "option-5",
+          "attributes": {
+            "Color": "Ivory",
+            "Finish": "Matt",
+            "Use": "Interior",
+            "Size": "1 L"
+          },
+          "price": 364,
+          "mrp": 455,
+          "unit": "bucket"
+        },
+        {
+          "id": "option-6",
+          "attributes": {
+            "Color": "Beige",
+            "Finish": "Matt",
+            "Use": "Interior",
+            "Size": "1 L"
+          },
+          "price": 364,
+          "mrp": 455,
+          "unit": "bucket"
+        }
+      ],
+      "fastDelivery": true,
+      "gstRate": 18,
+      "featured": false
+    },
+    {
+      "id": "13",
+      "slug": "asian-paints-trucare-interior-20-l-wall-primer",
+      "category": "paint-and-finishes",
+      "subCategory": "Primers",
+      "name": "Asian Paints TruCare Interior Wall Primer, Water Thinnable, 20 Litre Bucket",
+      "brand": "Asian",
+      "image": "/images/product-13-0.webp",
+      "images": ["/images/product-13-0.webp"],
+      "price": 3250,
+      "mrp": 4062.5,
+      "discount": 20,
+      "unit": "bucket",
+      "specifications": {
+        "Brand": "Asian",
+        "Category": "Paint & Finishes"
+      },
+      "description": "Product Highlights Quick Answer: What is Asian Paints TruCare Interior Wall Primer used for? Asian Paints TruCare Interior Wall Primer is a water-thinnable white primer , designed for sealing and preparing interior masonry surfaces before painting with high coverage (120-140 sqft/litre), quick drying (30 minutes), and excellent adhesion for water-based finishes. Brand: Asian Paints TruCare Type: Water-thinnable white primer Pack Size: 20 Litre bucket Coverage: 120-140 sqft/litre (2400-2800 sqft per bucket) Drying Time: 20 minutes touch-dry, 30 minutes surface-dry Application: Interior and e...",
+      "variants": [],
+      "fastDelivery": true,
+      "gstRate": 18,
+      "featured": false
+    },
+    {
+      "id": "14",
+      "slug": "crompton-brisk-air-exhaust-fan-150mm",
+      "category": "electrical-appliances",
+      "subCategory": "Exhaust Fans",
+      "name": "Crompton Brisk Air Plus Exhaust Fan",
+      "brand": "Crompton",
+      "image": "/images/product-14-0.webp",
+      "images": [
+        "/images/product-14-0.webp",
+        "/images/product-14-1.webp",
+        "/images/product-14-2.webp"
+      ],
+      "price": 1299,
+      "mrp": 1623.75,
+      "discount": 20,
+      "unit": "piece",
+      "specifications": {
+        "Brand": "Crompton",
+        "Category": "Electrical Appliances",
+        "Size": "150 mm (6\")"
+      },
+      "description": "Product Highlights Manufacturer: Crompton Model: Brisk Air Plus Product Type: Exhaust Fan Available Sizes: 150mm/6\" and 200mm/8\" Key Technology: Dust protection shutters, high-speed motor, silent operation Construction: Anti-rust materials for humid environment durability Installation: Wall or ceiling mount; DIY-friendly Packaging: 1 piece per unit Warranty: Crompton manufacturer warranty Product Description Crompton Brisk Air Plus Exhaust Fan is a high-speed, silent exhaust fan engineered for efficient ventilation in kitchens, bathrooms, toilets, and utility spaces. Available in 150mm and ...",
+      "variants": [
+        {
+          "id": "option-1",
+          "attributes": {
+            "Size": "150 mm (6\")"
+          },
+          "price": 1299,
+          "mrp": 1623.75,
+          "unit": "piece"
+        },
+        {
+          "id": "option-2",
+          "attributes": {
+            "Size": "200 mm (8\")"
+          },
+          "price": 1399,
+          "mrp": 1748.75,
+          "unit": "piece"
+        }
+      ],
+      "fastDelivery": true,
+      "gstRate": 18,
+      "featured": false
+    },
+    {
+      "id": "15",
+      "slug": "crompton-surebreeze-star-drift-1200-mm-ceiling-fan",
+      "category": "electrical-appliances",
+      "subCategory": "Ceiling Fans",
+      "name": "Crompton Surebreeze Star Drift 1200mm Ceiling Fan",
+      "brand": "Crompton",
+      "image": "/images/product-15-0.webp",
+      "images": [
+        "/images/product-15-0.webp",
+        "/images/product-15-1.webp",
+        "/images/product-15-2.webp"
+      ],
+      "price": 1589,
+      "mrp": 1986.25,
+      "discount": 20,
+      "unit": "piece",
+      "specifications": {
+        "Brand": "Crompton",
+        "Category": "Electrical Appliances",
+        "Color": "Brown"
+      },
+      "description": "Product Highlights Manufacturer: Crompton Model: Surebreeze Star Drift Motor: Induction Motor with Double Ball Bearing Power Consumption: 46 Watts BEE Rating: 1-Star Energy Rating Sweep Size: 1200mm Air Delivery: 210 CMM Speed: 390 RPM Blades: 3 Precision Metal Blades, Premium Metal Body Control: Standard Rotary Regulator Anti-Dust Coating: Dust-resistant body finish Available Colours: Brown, Opal White, Ivory Warranty: 2 Years Manufacturer Warranty Product Description Crompton Surebreeze Star Drift is a 1200mm standard induction ceiling fan built with a 100% copper-wound motor and double b...",
+      "variants": [
+        {
+          "id": "option-1",
+          "attributes": {
+            "Color": "Brown"
+          },
+          "price": 1589,
+          "mrp": 1986.25,
+          "unit": "piece"
+        },
+        {
+          "id": "option-2",
+          "attributes": {
+            "Color": "Opal White"
+          },
+          "price": 1589,
+          "mrp": 1986.25,
+          "unit": "piece"
+        },
+        {
+          "id": "option-3",
+          "attributes": {
+            "Color": "Ivory"
+          },
+          "price": 1589,
+          "mrp": 1986.25,
+          "unit": "piece"
+        }
+      ],
+      "fastDelivery": false,
+      "gstRate": 18,
+      "featured": false
+    },
+    {
+      "id": "16",
+      "slug": "dr-fixit-raincoat-wpc-20l",
+      "category": "waterproofing",
+      "subCategory": "Waterproof Coatings",
+      "name": "Dr. Fixit Raincoat WPC 20L",
+      "brand": "Pidilite",
+      "image": "/images/product-16-0.webp",
+      "images": ["/images/product-16-0.webp"],
+      "price": 5916,
+      "mrp": 7395,
+      "discount": 20,
+      "unit": "bucket",
+      "specifications": {
+        "Brand": "Pidilite",
+        "Category": "Waterproofing"
+      },
+      "description": "Dr. Fixit Raincoat WPC is a water-based exterior waterproofing coating designed to protect building surfaces from rainwater seepage and moisture. It forms a durable, flexible and weather-resistant protective layer that helps prevent water penetration, dampness and leakage. The coating provides good adhesion to concrete, masonry and plastered surfaces and helps protect exterior walls against changing weather conditions. Suitable for exterior walls, terraces, balconies, chajjas and other exposed building surfaces.",
+      "variants": [],
+      "fastDelivery": true,
+      "gstRate": 18,
+      "featured": true
+    },
+    {
+      "id": "17",
+      "slug": "dr-fixit-primeseal-20l",
+      "category": "waterproofing",
+      "subCategory": "Primers",
+      "name": "Dr. Fixit Primeseal 20L",
+      "brand": "Pidilite",
+      "image": "/images/product-17-0.webp",
+      "images": ["/images/product-17-0.webp"],
+      "price": 4001,
+      "mrp": 5001.25,
+      "discount": 20,
+      "unit": "bucket",
+      "specifications": {
+        "Brand": "Pidilite",
+        "Category": "Waterproofing"
+      },
+      "description": "Dr. Fixit Primeseal is a water-based acrylic primer designed to improve the adhesion and performance of waterproofing coatings on concrete and masonry surfaces. It penetrates and seals the surface, helping create a uniform base for subsequent waterproofing treatment. It improves bonding between the substrate and waterproofing coating and helps enhance the overall durability of the waterproofing system. Suitable for use on terraces, roofs, balconies, chajjas and other concrete or masonry surfaces.",
+      "variants": [],
+      "fastDelivery": true,
+      "gstRate": 18,
+      "featured": false
+    },
+    {
+      "id": "18",
+      "slug": "ashirvad-cpvc-flowguard-plus-pipe-sdr-11-5m-length-copy",
+      "category": "pipes-and-fittings",
+      "subCategory": "CPVC Pipes",
+      "name": "Ashirvad CPVC Flowguard Plus Pipe, SDR-11, 5m Length",
+      "brand": "ashirvad",
+      "image": "/images/product-18-0.webp",
+      "images": ["/images/product-18-0.webp"],
+      "price": 316,
+      "mrp": 395,
+      "discount": 20,
+      "unit": "pipe",
+      "specifications": {
+        "Brand": "ashirvad",
+        "Category": "Pipes & Fittings",
+        "Material": "CPVC",
+        "Size": "1/2\" (15 mm)"
+      },
+      "description": "Product Highlights Quick Answer: What is Ashirvad CPVC Flowguard Plus Pipe used for? Ashirvad CPVC Flowguard Plus Pipe SDR-11 is a premium hot and cold water distribution pipe system , designed for residential and commercial plumbing applications with superior temperature resistance up to 93\u00b0C and 50+ year service life. Material: CPVC (Chlorinated Polyvinyl Chloride) - FlowGuard Gold Technology Pressure Rating: SDR-11 (PN 15 / 15 kg/cm\u00b2 at 25\u00b0C) Temperature Range: Up to 93\u00b0C (200\u00b0F) continuous service Length: 5 meters per pipe Standards: ASTM D2846, NSF certified for potable water Product D...",
+      "variants": [
+        {
+          "id": "option-1",
+          "attributes": {
+            "Material": "CPVC",
+            "Size": "1/2\" (15 mm)"
+          },
+          "price": 316,
+          "mrp": 395,
+          "unit": "pipe"
+        },
+        {
+          "id": "option-2",
+          "attributes": {
+            "Material": "CPVC",
+            "Size": "3/4\" (20 mm)"
+          },
+          "price": 395,
+          "mrp": 493.75,
+          "unit": "pipe"
+        },
+        {
+          "id": "option-3",
+          "attributes": {
+            "Material": "CPVC",
+            "Size": "1\" (25 mm)"
+          },
+          "price": 612,
+          "mrp": 765,
+          "unit": "pipe"
+        },
+        {
+          "id": "option-4",
+          "attributes": {
+            "Material": "CPVC",
+            "Size": "1 1/4\" (32 mm)"
+          },
+          "price": 1123,
+          "mrp": 1403.75,
+          "unit": "pipe"
+        }
+      ],
+      "fastDelivery": true,
+      "gstRate": 18,
+      "featured": true
+    },
+    {
+      "id": "19",
+      "slug": "ashirvad-cpvc-pro-90-elbow",
+      "category": "pipes-and-fittings",
+      "subCategory": "CPVC Fittings",
+      "name": "Ashirvad Flowguard Plus CPVC 90\u00b0 Elbow",
+      "brand": "ashirvad",
+      "image": "/images/product-19-0.webp",
+      "images": [
+        "/images/product-19-0.webp",
+        "/images/product-19-1.webp",
+        "/images/product-19-2.webp"
+      ],
+      "price": 16,
+      "mrp": 20,
+      "discount": 20,
+      "unit": "piece",
+      "specifications": {
+        "Brand": "ashirvad",
+        "Category": "Pipes & Fittings",
+        "Material": "CPVC",
+        "Size": "1/2\" (15 mm)"
+      },
+      "description": "Product Highlights Quick Answer: What is Ashirvad Flowguard Plus CPVC 90\u00b0 Elbow used for? Ashirvad Flowguard Plus CPVC 90\u00b0 Elbow is a high-performance plumbing fitting for hot and cold water systems , designed for changing pipe direction at right angles in residential and commercial plumbing with superior temperature and pressure resistance. Material: CPVC (Chlorinated Polyvinyl Chloride) Angle: 90 Degrees (Right Angle) Temperature Rating: Up to 93\u00b0C (200\u00b0F) Pressure Rating: SDR-11 (PN 15 / 15 kg/cm\u00b2) Brand: Ashirvad Flowguard Plus - Premium CPVC Systems Product Description Ashirvad Flowgua...",
+      "variants": [
+        {
+          "id": "option-1",
+          "attributes": {
+            "Material": "CPVC",
+            "Size": "1/2\" (15 mm)"
+          },
+          "price": 16,
+          "mrp": 20,
+          "unit": "piece"
+        },
+        {
+          "id": "option-2",
+          "attributes": {
+            "Material": "CPVC",
+            "Size": "3/4\" (20 mm)"
+          },
+          "price": 17,
+          "mrp": 21.25,
+          "unit": "piece"
+        },
+        {
+          "id": "option-3",
+          "attributes": {
+            "Material": "CPVC",
+            "Size": "1\" (25 mm)"
+          },
+          "price": 36,
+          "mrp": 45,
+          "unit": "piece"
+        },
+        {
+          "id": "option-4",
+          "attributes": {
+            "Material": "CPVC",
+            "Size": "1 1/4\" (32 mm)"
+          },
+          "price": 80,
+          "mrp": 100,
+          "unit": "piece"
+        },
+        {
+          "id": "option-5",
+          "attributes": {
+            "Material": "CPVC",
+            "Size": "1 1/2\" (40 mm)"
+          },
+          "price": 147,
+          "mrp": 183.75,
+          "unit": "piece"
+        },
+        {
+          "id": "option-6",
+          "attributes": {
+            "Material": "CPVC",
+            "Size": "2\" (50 mm)"
+          },
+          "price": 309,
+          "mrp": 386.25,
+          "unit": "piece"
+        }
+      ],
+      "fastDelivery": false,
+      "gstRate": 18,
+      "featured": false
+    },
+    {
+      "id": "20",
+      "slug": "hettich-0-crank-soft-close-hinges-25mm-9281432",
+      "category": "hardware-and-locks",
+      "subCategory": "Hinges",
+      "name": "Hettich Onsys 4447i Soft Close Hinges, 1 Set (2 Nos)",
+      "brand": "Hettich",
+      "image": "/images/product-20-0.webp",
+      "images": [
+        "/images/product-20-0.webp",
+        "/images/product-20-1.webp",
+        "/images/product-20-2.webp"
+      ],
+      "price": 222,
+      "mrp": 277.5,
+      "discount": 20,
+      "unit": "piece",
+      "specifications": {
+        "Brand": "Hettich",
+        "Category": "Hardware & Locks",
+        "Crank": "0 Crank (9281432)"
+      },
+      "description": "Product Highlights Quick Answer: What is Hettich Onsys 4447i hinge used for? Hettich Onsys 4447i Soft Close Hinge is a concealed cabinet hinge with integrated soft-close mechanism , designed for kitchen cabinets, wardrobes, and storage units to ensure silent door closing, precise alignment, and long-term durability. Model: Hettich Onsys 4447i (Soft Close) Variants: 0 Crank (9281432), 8 Crank (9281434),16 Crank (9336592) Opening Angle: 105\u00b0 for comfortable access Door Thickness: Suitable for 15-24 mm cabinet doors Adjustment: 3D adjustment for perfect door alignment Installation: Clip-on hin...",
+      "variants": [
+        {
+          "id": "option-1",
+          "attributes": {
+            "Crank": "0 Crank (9281432)"
+          },
+          "price": 222,
+          "mrp": 277.5,
+          "unit": "piece"
+        },
+        {
+          "id": "option-2",
+          "attributes": {
+            "Crank": "8/9.5 Crank (9281434)"
+          },
+          "price": 244,
+          "mrp": 305,
+          "unit": "piece"
+        },
+        {
+          "id": "option-3",
+          "attributes": {
+            "Crank": "16 Crank (9336592)"
+          },
+          "price": 266,
+          "mrp": 332.5,
+          "unit": "piece"
+        }
+      ],
+      "fastDelivery": true,
+      "gstRate": 18,
+      "featured": true
+    },
+    {
+      "id": "21",
+      "slug": "europa-main-door-lock-hexabolt-h341-ab-sn",
+      "category": "hardware-and-locks",
+      "subCategory": "Door Locks",
+      "name": "Europa Main Door Lock Hexabolt H341 AB/SN, Single Door",
+      "brand": "Europa",
+      "image": "/images/product-21-0.webp",
+      "images": [
+        "/images/product-21-0.webp",
+        "/images/product-21-1.webp",
+        "/images/product-21-2.webp"
+      ],
+      "price": 4282,
+      "mrp": 5352.5,
+      "discount": 20,
+      "unit": "piece",
+      "specifications": {
+        "Brand": "Europa",
+        "Category": "Hardware & Locks",
+        "Finish": "AB (Antique Brass)"
+      },
+      "description": "Product Highlights Quick Answer: What is Europa Hexabolt H341 used for? Europa Hexabolt H341 is a premium 6-bolt main door lock , designed for single and double door security , featuring 6 heavy-duty brass dead bolts (18mm), 3-ton breaking load, 15-year warranty, and \u20b93 Lakh anti-burglary insurance. Brand: Europa Dead Bolts: 6 Heavy-Duty Brass Bolts (18mm) Breaking Load: 3 Tons Finish: Antique Brass (AB) / Satin Nickel (SN) Warranty: 15 Years + \u20b93 Lakh Insurance Product Description Europa Hexabolt H341 represents the ultimate in mechanical door lock security with its revolutionary 6-bolt sy...",
+      "variants": [
+        {
+          "id": "option-1",
+          "attributes": {
+            "Finish": "AB (Antique Brass)"
+          },
+          "price": 4282,
+          "mrp": 5352.5,
+          "unit": "piece"
+        },
+        {
+          "id": "option-2",
+          "attributes": {
+            "Finish": "SN (Satin Nickel)"
+          },
+          "price": 4282,
+          "mrp": 5352.5,
+          "unit": "piece"
+        }
+      ],
+      "fastDelivery": true,
+      "gstRate": 18,
+      "featured": false
+    },
+    {
+      "id": "22",
+      "slug": "century-sainik-mr-plywood",
+      "category": "plywood-and-laminates",
+      "subCategory": "Plywood",
+      "name": "Century Sainik MR 303 Plywood",
+      "brand": "Century",
+      "image": "/images/product-22-0.webp",
+      "images": ["/images/product-22-0.webp", "/images/product-22-1.webp"],
+      "price": 1289,
+      "mrp": 1611.25,
+      "discount": 20,
+      "unit": "sheet",
+      "specifications": {
+        "Brand": "Century",
+        "Category": "Plywood & Laminates",
+        "Thickness": "6 mm",
+        "Sheet": "7 x 4 ft"
+      },
+      "description": "Product Highlights Quick Answer: What is Century Sainik MR 303 Plywood used for? Century Sainik MR 303 Plywood is a moisture resistant (MR) grade plywood , designed for interior furniture and applications with protection against moisture in dry conditions and quality construction. Type: Moisture Resistant (MR) Grade Plywood Series: Sainik MR 303 Grade: MR (Moisture Resistant) Application: Interior furniture and dry area applications Brand: Century Plyboards - trusted plywood brand Product Description Century Sainik MR 303 Plywood is a moisture resistant grade plywood manufactured by Century...",
+      "variants": [
+        {
+          "id": "option-1",
+          "attributes": {
+            "Thickness": "6 mm",
+            "Sheet": "7 x 4 ft"
+          },
+          "price": 1289,
+          "mrp": 1611.25,
+          "unit": "sheet"
+        },
+        {
+          "id": "option-2",
+          "attributes": {
+            "Thickness": "6 mm",
+            "Sheet": "8 x 4 ft"
+          },
+          "price": 1469,
+          "mrp": 1836.25,
+          "unit": "sheet"
+        },
+        {
+          "id": "option-3",
+          "attributes": {
+            "Thickness": "8 mm",
+            "Sheet": "7 x 4 ft"
+          },
+          "price": 1592,
+          "mrp": 1990,
+          "unit": "sheet"
+        },
+        {
+          "id": "option-4",
+          "attributes": {
+            "Thickness": "8 mm",
+            "Sheet": "8 x 4 ft"
+          },
+          "price": 1816,
+          "mrp": 2270,
+          "unit": "sheet"
+        },
+        {
+          "id": "option-5",
+          "attributes": {
+            "Thickness": "12 mm",
+            "Sheet": "7 x 4 ft"
+          },
+          "price": 1888,
+          "mrp": 2360,
+          "unit": "sheet"
+        },
+        {
+          "id": "option-6",
+          "attributes": {
+            "Thickness": "12 mm",
+            "Sheet": "8 x 4 ft"
+          },
+          "price": 2152,
+          "mrp": 2690,
+          "unit": "sheet"
+        }
+      ],
+      "fastDelivery": true,
+      "gstRate": 18,
+      "featured": false
+    },
+    {
+      "id": "23",
+      "slug": "bosch-professional-gws-corded-angle-grinder-100mm-disc",
+      "category": "tools-and-site-supplies",
+      "subCategory": "Power Tools",
+      "name": "Bosch Professional GWS Corded Angle Grinder, 100mm (4\") Disc",
+      "brand": "Bosch",
+      "image": "/images/product-23-0.webp",
+      "images": [
+        "/images/product-23-0.webp",
+        "/images/product-23-1.webp",
+        "/images/product-23-2.webp"
+      ],
+      "price": 2699,
+      "mrp": 3373.75,
+      "discount": 20,
+      "unit": "piece",
+      "specifications": {
+        "Brand": "Bosch",
+        "Category": "Tools & Site Supplies",
+        "Model": "GWS 700 (750W)"
+      },
+      "description": "Product Highlights Manufacturer: Bosch Limited Product: Corded Electric Angle Grinder Variants Available: GWS 700 (750W) and GWS 800 (800W) Disc Diameter: 100 mm (4 in\") No-Load Speed: 12,000 RPM (GWS 700) / 11,000 RPM (GWS 800) Spindle Thread: M10 Warranty: 1 Year - both variants In the Box: Grinder, safety guard, auxiliary handle, clamping flange, M10 locking nut, pin-type wrench, instruction manual and warranty card (discs sold separately) Product Description Bosch Professional GWS Corded Angle Grinder is available in two variants - the GWS 700-100 (750W) for rapid material removal with ...",
+      "variants": [
+        {
+          "id": "option-1",
+          "attributes": {
+            "Model": "GWS 700 (750W)"
+          },
+          "price": 2699,
+          "mrp": 3373.75,
+          "unit": "piece"
+        },
+        {
+          "id": "option-2",
+          "attributes": {
+            "Model": "GWS 800 (800W)"
+          },
+          "price": 2789,
+          "mrp": 3486.25,
+          "unit": "piece"
+        }
+      ],
+      "fastDelivery": false,
+      "gstRate": 18,
+      "featured": true
+    },
+    {
+      "id": "24",
+      "slug": "bosch-12-piece-hand-tool-kit-for-home",
+      "category": "tools-and-site-supplies",
+      "subCategory": "Hand Tools",
+      "name": "Bosch 12-Piece Hand Tool Kit for Home",
+      "brand": "Bosch",
+      "image": "/images/product-24-0.webp",
+      "images": [
+        "/images/product-24-0.webp",
+        "/images/product-24-1.webp",
+        "/images/product-24-2.webp"
+      ],
+      "price": 1549,
+      "mrp": 1936.25,
+      "discount": 20,
+      "unit": "piece",
+      "specifications": {
+        "Brand": "Bosch",
+        "Category": "Tools & Site Supplies"
+      },
+      "description": "Product Highlights Manufacturer: Bosch Model: 2.607.002.791 \u2013 12-Piece Hand Tool Kit Tool Count: 12 Essential Hand Tools with Storage Case Material: Chrome Vanadium Steel &amp; S2 Tool Steel Grip Design: Ergonomic Anti-Fatigue Cushion Handles Finish: Corrosion &amp; Rust-Resistant Protective Coating Storage: Impact-Resistant Blow-Molded Carrying Case Application: Home Maintenance, DIY Repairs &amp; Automotive Emergencies Weight: Approx. 1.25 kg (Including Carry Case) Country of Origin: China Product Description The Bosch 12-Piece Hand Tool Kit is a compact and premium-quality toolkit design...",
+      "variants": [],
+      "fastDelivery": true,
+      "gstRate": 18,
+      "featured": false
+    }
+  ]
+}
