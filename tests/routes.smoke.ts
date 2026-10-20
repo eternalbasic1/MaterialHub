@@ -44,6 +44,7 @@ test("all product pages contain product headings, offers, and canonical links", 
 });
 test("catalog images are available locally", async ({ request }) => {
   const assets = new Set([
+    "/images/architectural-home.webp",
     ...categories.map((c) => c.image),
     ...products.flatMap((p) => [p.image, ...p.images]),
   ]);

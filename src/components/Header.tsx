@@ -2,7 +2,7 @@
 import Link from "next/link";
 import Form from "next/form";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useState, useSyncExternalStore } from "react";
 import {
   ArrowUpRight,
   Building2,
@@ -20,6 +20,13 @@ import {
 import { categories, products } from "@/features/catalog/data";
 import { useCartTotals } from "@/features/cart/CartProvider";
 import { InfoDialog } from "./InfoDialog";
+function subscribeToScroll(callback: () => void) {
+  window.addEventListener("scroll", callback, { passive: true });
+  return () => window.removeEventListener("scroll", callback);
+}
+const getScrolled = () => window.scrollY > 32;
+const getServerScrolled = () => false;
+
 export function Logo({ light = false }: { light?: boolean }) {
   return (
     <Link
@@ -27,13 +34,14 @@ export function Logo({ light = false }: { light?: boolean }) {
       className={`inline-flex items-center gap-2.5 ${light ? "text-white" : "text-ink"}`}
       aria-label="MaterialHub home"
     >
-      <span className="grid h-10 w-10 place-items-center rounded-md bg-forest text-white">
+      <span
+        className={`grid h-10 w-10 place-items-center rounded-md text-white ${light ? "border border-white/40 bg-white/10" : "bg-forest"}`}
+      >
         <Building2 size={25} strokeWidth={2.1} />
       </span>
       <span className="text-[23px] font-extrabold tracking-[-1.2px]">
-        material
-        <span className={light ? "text-forest" : "text-forest"}>hub</span>
-        <span className="text-forest">.</span>
+        Material
+        <span className={light ? "text-white" : "text-forest"}>Hub</span>
       </span>
     </Link>
   );
@@ -42,6 +50,13 @@ export function Header() {
   const path = usePathname();
   const { count } = useCartTotals();
   const [mobile, setMobile] = useState(false);
+  const home = path === "/";
+  const scrolled = useSyncExternalStore(
+    subscribeToScroll,
+    getScrolled,
+    getServerScrolled,
+  );
+  const transparent = home && !scrolled && !mobile;
   const [query, setQuery] = useState("");
   const [focused, setFocused] = useState(false);
   const suggestions =
@@ -56,7 +71,9 @@ export function Header() {
       : [];
   return (
     <>
-      <div className="border-b border-line bg-canvas text-[11px] text-muted">
+      <div
+        className={`${home ? "hidden" : ""} border-b border-line bg-canvas text-[11px] text-muted`}
+      >
         <div className="page-shell flex min-h-8 items-center justify-between gap-3 py-1">
           <span>For homes, worksites & everything in between.</span>
           <span className="hidden shrink-0 sm:inline">
@@ -64,10 +81,16 @@ export function Header() {
           </span>
         </div>
       </div>
-      <header className="sticky top-0 z-40 border-b border-line/80 bg-white">
+      <header
+        data-home={home || undefined}
+        data-transparent={transparent || undefined}
+        className={`${home ? "fixed inset-x-0" : "sticky"} top-0 z-40 border-b transition-[background-color,border-color,color,box-shadow] duration-300 ${transparent ? "home-header-transparent border-white/20 bg-transparent text-white" : "border-line bg-white text-ink"} ${home && !transparent ? "shadow-sm" : ""}`}
+      >
         <div className="page-shell flex min-h-[86px] flex-wrap items-center gap-5 py-4 lg:flex-nowrap lg:gap-8">
-          <Logo />
-          <div className="hidden border-l border-line pl-6 xl:block">
+          <Logo light={transparent} />
+          <div
+            className={`${home ? "hidden" : "hidden xl:block"} border-l border-line pl-6`}
+          >
             <InfoDialog
               title="Delivering in Gurugram"
               label={
@@ -89,6 +112,25 @@ export function Header() {
               arranged.
             </InfoDialog>
           </div>
+          {home && (
+            <nav
+              aria-label="Homepage navigation"
+              className="hidden shrink-0 items-center gap-6 text-[13px] lg:flex"
+            >
+              <Link
+                href="/search"
+                className="hover:underline underline-offset-4"
+              >
+                Shop materials
+              </Link>
+              <Link
+                href="/#categories"
+                className="hover:underline underline-offset-4"
+              >
+                Categories
+              </Link>
+            </nav>
+          )}
           <div
             className="relative order-last w-full lg:order-none lg:flex-1"
             onFocus={() => setFocused(true)}
@@ -101,9 +143,12 @@ export function Header() {
               action="/search"
               onSubmit={() => setFocused(false)}
               role="search"
-              className="flex h-11 items-center gap-3 rounded-lg border border-line bg-white px-4 transition focus-within:border-forest focus-within:ring-2 focus-within:ring-forest-line"
+              className={`flex h-11 items-center gap-3 rounded-lg border px-4 transition focus-within:ring-2 ${transparent ? "border-white/40 bg-black/15 text-white focus-within:border-white focus-within:ring-white/40" : "border-line bg-white focus-within:border-forest focus-within:ring-forest-line"}`}
             >
-              <Search size={19} className="shrink-0 text-muted" />
+              <Search
+                size={19}
+                className={`shrink-0 ${transparent ? "text-white" : "text-muted"}`}
+              />
               <input
                 type="search"
                 enterKeyHint="search"
@@ -115,18 +160,18 @@ export function Header() {
                 onKeyDown={(event) => {
                   if (event.key === "Escape") setFocused(false);
                 }}
-                className="w-full bg-transparent text-[13px] outline-none"
+                className={`min-w-0 w-full bg-transparent text-[13px] outline-none ${transparent ? "placeholder:text-white/80" : "placeholder:text-muted"}`}
               />
               <button
                 type="submit"
                 aria-label="Submit search"
-                className="hidden rounded border border-line px-1.5 py-0.5 text-[11px] text-muted sm:block"
+                className={`hidden rounded border px-1.5 py-0.5 text-[11px] sm:block ${transparent ? "border-white/40 text-white" : "border-line text-muted"}`}
               >
                 ↵
               </button>
             </Form>
             {focused && suggestions.length > 0 && (
-              <div className="absolute top-12 z-50 w-full rounded-lg border border-line bg-white p-2 shadow-xl">
+              <div className="search-suggestions absolute top-12 z-50 w-full rounded-lg border border-line bg-white p-2 text-ink shadow-xl">
                 {suggestions.map((p) => (
                   <Link
                     key={p.id}
@@ -154,7 +199,7 @@ export function Header() {
             <InfoDialog
               title="Your next project starts here"
               triggerLabel="Account"
-              className="hidden items-center gap-2 text-sm font-medium text-muted sm:flex"
+              className={`hidden items-center gap-2 text-sm font-medium sm:flex ${transparent ? "text-white" : "text-muted"}`}
               label={
                 <>
                   <UserRound size={21} />
@@ -169,7 +214,7 @@ export function Header() {
             <Link
               href="/cart"
               aria-label={`Cart, ${count} items`}
-              className={`flex items-center gap-2 ${path === "/cart" ? "text-forest" : "text-ink"}`}
+              className={`flex items-center gap-2 ${transparent ? "text-white" : path === "/cart" ? "text-forest" : "text-ink"}`}
             >
               <span className="relative">
                 <ShoppingCart size={23} />
@@ -258,7 +303,7 @@ export function Header() {
           {mobile && (
             <nav
               aria-label="Mobile navigation"
-              className="page-shell max-h-[65vh] overflow-y-auto py-3 lg:hidden"
+              className="page-shell max-h-[65vh] overflow-y-auto bg-white py-3 text-ink lg:hidden"
             >
               <Link
                 href="/"
